@@ -12,7 +12,17 @@ sudo tasksel install lamp-server
 
 sudo mysql_secure_installation
 
+
+## MySQL Workbench and PHPMyAdmin to administer MySQL
+
+### MySQL Workbench
+
+testing MyQL: sudo mysqladmin -u root -p status
+
+
 ### phpmyadmin
+
+http://localhost/phpmyadmin
 
 sudo dpkg-reconfigure phpmyadmin
 
