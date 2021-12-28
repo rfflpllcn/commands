@@ -9,6 +9,9 @@
 * chown TODO
 
 * env
+* /etc/cron.d TODO
+
+
 
 * ll > listing.txt (redirection)
 
