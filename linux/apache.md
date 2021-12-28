@@ -1,5 +1,11 @@
 https://medium.com/swlh/how-to-install-and-configure-apache-as-a-web-server-on-ubuntu-16-04-77fa7f57dea2
 
+###
+* apache conf in /etc/apache2/apache2.conf
+
+### add virtual hosts
+* /etc/apache2/sites-available
+
 ### restart
 
 sudo service apache2 restart
