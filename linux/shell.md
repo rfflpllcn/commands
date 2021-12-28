@@ -10,7 +10,7 @@
 
 * env
 * /etc/cron.d TODO
-
+* cat /etc/passwd (one line for each user on the system, login:password:UID:GID:Full Name:homedir:shell)
 
 
 * ll > listing.txt (redirection)
