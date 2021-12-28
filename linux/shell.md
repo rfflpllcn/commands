@@ -12,7 +12,11 @@
 * /etc/cron.d TODO
 * cat /etc/passwd (one line for each user on the system, login:password:UID:GID:Full Name:homedir:shell)
 
-
+* free -h )disk spoace usage in readable format)
+*
 * ll > listing.txt (redirection)
 
 * ls -al | more (pipeline)
+* ps ax | less (all process currently runninh ofr all users)
+    - ps aux | grep apache*
+* top (real time look at the processor activity)
