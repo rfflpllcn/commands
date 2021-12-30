@@ -3,11 +3,18 @@
 * grant all on bookstorerp.* to "rp"@"localhost";
 * flush privileges;
 
-# run query 
+### run query 
 
-* sudo mysql -u rp -p bookstorerp < bookDB.sql SSkDB.sql xample given below)
+* sudo mysql -u rp -p bookstorerp < bookDB.sql (bookDB.sql example given below)
 
-# check db in MySQL Workbench:
+### check db in MySQL Workbench:
+
+* Database/Manage Connections/New
+
+### check webapp
+
+* http://localhost/simpleEmailApp/sendmymail.php
+
 
 
 
