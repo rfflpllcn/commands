@@ -27,3 +27,9 @@ The default Apache 2 test page is part of the apache2-data package that automati
 * REMOVE index.php (index.html will work fine as well)
 
 
+### to expose a local webserver:
+
+https://dashboard.ngrok.com/get-started/tutorials
+
+* ./ngrok http 80  (The output will list a forwarding URL, which will point to your local server.)
+
