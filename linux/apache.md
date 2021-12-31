@@ -32,4 +32,6 @@ The default Apache 2 test page is part of the apache2-data package that automati
 https://dashboard.ngrok.com/get-started/tutorials
 
 * ./ngrok http 80  (The output will list a forwarding URL, which will point to your local server.)
+* ctrl+c to close the port
+* ss -tulw (to check ports in use)
 
