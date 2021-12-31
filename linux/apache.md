@@ -10,10 +10,20 @@ https://medium.com/swlh/how-to-install-and-configure-apache-as-a-web-server-on-u
 
 sudo service apache2 restart
 
-# permissions to the /var/www/html folder.
+### permissions to the /var/www/html folder.
 
 sudo gpasswd -a username www-data  (user "username" added to group "www-data")
 
 sudo chown -R www-data:www-data /var/www/html (assign ownership to group "www-data" for all files under "/var/www/html")
 
 sudo chmod -R g+rwx /var/www/html (assign rwx rights at group level)
+
+### deleted index.php file
+
+The default Apache 2 test page is part of the apache2-data package that automatically gets installed with apache2.
+
+* cd /usr/share/apache2/default-site
+* sudo cp -f  index.html /var/www/html/
+* REMOVE index.php (index.html will work fine as well)
+
+
